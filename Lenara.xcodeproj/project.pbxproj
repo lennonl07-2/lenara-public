@@ -1,0 +1,1168 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E96FB23CA747EA624FC892 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 4F089B2AA707D20C8BD76E47 /* PrivacyInfo.xcprivacy */; };
+		03D82DC0C6DFB2DCF1F6F636 /* LocalModelCatalogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BD480AD2B8B1B1364C09D0 /* LocalModelCatalogTests.swift */; };
+		07B10AB2DF307B45B3758BF6 /* LocalLlamaEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1223B1D725E5CAF579739EAF /* LocalLlamaEngine.swift */; };
+		1333189E9A5CC1DC6831DAE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 927F008A5874EA02008CAAC5 /* Assets.xcassets */; };
+		19AAA7CC23673F89C99178C3 /* CaptureAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 555F8E568239FE48E84EF81E /* CaptureAssets.xcassets */; };
+		2D3BAF5EEBBBBDCAE89218BD /* KeychainManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A11C81242E873DB0316832C /* KeychainManager.swift */; };
+		2D56D6C635D68A45D14E7DF7 /* Latido.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6549CD6987797DD382640F25 /* Latido.wav */; };
+		34D45C44244F4B0C15F39991 /* CaptureAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 555F8E568239FE48E84EF81E /* CaptureAssets.xcassets */; };
+		36E243572FB0ACCF2D7BE81F /* ReminderCaptureActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A4BF3BE19BF077C1853A3A /* ReminderCaptureActivity.swift */; };
+		3B6EE622777DDE28AA95F4DC /* ChatSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4872F1ECE09553A9C6F6FF /* ChatSheet.swift */; };
+		3D853F0BCA918C6B81010C8A /* IntentParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997695FFAC821D23A97C17D3 /* IntentParser.swift */; };
+		453EB65D7984E867EC499E83 /* Alarma-Fuerte_MasDUR.wav in Resources */ = {isa = PBXBuildFile; fileRef = 04B312F5E3B431AF70E60A63 /* Alarma-Fuerte_MasDUR.wav */; };
+		4EC44D2E805D766AB992CC08 /* VoiceCaptureSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B57BD7590C52049C29D285A /* VoiceCaptureSheet.swift */; };
+		4F4EBA2A1CA697A2BF23F148 /* WidgetSharedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233C20370DD35E323377054A /* WidgetSharedStore.swift */; };
+		506DFC9730253FD4C9919330 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60711C90F8A51AFEAAB2D1DB /* OnboardingView.swift */; };
+		51C831908DE8C57A0770AE23 /* DataServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97844C55CFB7B1DF91E69DB /* DataServices.swift */; };
+		56F1569F9502497A23E1821B /* Llamado.wav in Resources */ = {isa = PBXBuildFile; fileRef = 66BD1BC547BFA172F119F7CD /* Llamado.wav */; };
+		58CFE56180D8AD8C8FFFE843 /* ReminderCaptureActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A4BF3BE19BF077C1853A3A /* ReminderCaptureActivity.swift */; };
+		5CBD67F9BB2A84ED124CCCFD /* ReminderScheduleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F5ADB862F934C7DC947DF2 /* ReminderScheduleTests.swift */; };
+		60BB27ECD4819EF6927E947E /* SettingsTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B5B708F860F7C5394EEC9D /* SettingsTab.swift */; };
+		627159A3EDB260146FE83A62 /* LenaraStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62AB7CD75006EC0F4504521 /* LenaraStore.swift */; };
+		688F639E43042491E3891ECE /* LockIconTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FE7D84BF64B2AC00F14E68 /* LockIconTests.swift */; };
+		6954DEDBA1B30D97B6CCF0D1 /* NotificationSoundLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAAE34FAD1FA46A3F4A7E2E /* NotificationSoundLibrary.swift */; };
+		6E04134B408FB971666CAA48 /* LockScreenReminderCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51091DC863FC04DB2DFAEEB /* LockScreenReminderCapture.swift */; };
+		730646A3248CC4E870B628B2 /* VoiceReminderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F894305738CC3602CA8E8EBC /* VoiceReminderTests.swift */; };
+		7423E2A39F634EC35ED6BBB4 /* HomeTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20671440C6875CDAB66FD19A /* HomeTab.swift */; };
+		7C0A2D30FF7862F8DA59522B /* LenaraWidgets.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = E406F1371B45180280977BAD /* LenaraWidgets.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7C3AFA87DB7D5679920DBB7B /* AssistantPromptStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3945CFDA10061D02FFD6DCF6 /* AssistantPromptStore.swift */; };
+		80250EF4C551E88F5A9E0AAD /* LocalNotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18C11A41748457F7B364FA6 /* LocalNotificationManager.swift */; };
+		86739338551B664AD99B2ED2 /* ReminderDictationRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34B4011E71B683576B9DE38 /* ReminderDictationRoute.swift */; };
+		89FDCABD5BF1469FF652032A /* LocalModelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862782F0C71A3B1C885BA694 /* LocalModelManager.swift */; };
+		8C3C1586E8739B00016FC69F /* WidgetVoiceCaptureScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D4E97419060FA6B0339A91 /* WidgetVoiceCaptureScreen.swift */; };
+		9023C1F99D194667F2783B7F /* AgendaTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197D3978F3A742930BD1BAD6 /* AgendaTab.swift */; };
+		9107C8DA2E9A199A74EDC198 /* VoiceReminderService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DFEE88DD7C6CA5B70A6FA5 /* VoiceReminderService.swift */; };
+		9369D958F05CBA96F826EB7E /* NotificationFlowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4B7350379DF4DE6438689A /* NotificationFlowTests.swift */; };
+		940F13258C7F06CB4AFB673E /* NotificationAurora.wav in Resources */ = {isa = PBXBuildFile; fileRef = 71C68F3EFC7EF094EA66EC61 /* NotificationAurora.wav */; };
+		9971B09A6CD209671D3EA098 /* llama in Frameworks */ = {isa = PBXBuildFile; productRef = 3B29ED134957920CBA411039 /* llama */; };
+		9B315212571B75B415E67429 /* Gota.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8744EFB53E12F7D90BFB604C /* Gota.wav */; };
+		9BCD329AA3C866BAC4ED34DD /* LenaraWidgets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A936C84158806329D07B17 /* LenaraWidgets.swift */; };
+		9F93D459F56E2BF58764B095 /* ReminderNotificationRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441CF48F286E995400C8C178 /* ReminderNotificationRouter.swift */; };
+		A04A7434AE5057DA4D4012BE /* AppConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E814031339E26E40979BA12 /* AppConfiguration.swift */; };
+		A58948300D1C80E59B3C1F76 /* LenaraColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1027384B6B93A6F56239E1 /* LenaraColors.swift */; };
+		B292D42D2025FB98B68C206E /* AppLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0B36DE8635BEA8A730674C /* AppLogger.swift */; };
+		B2A9DD3870BDF2D877E871CD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1842D6866F790C92AA3E7D6A /* ContentView.swift */; };
+		B32421AF84FAAD39BA7A2725 /* ReminderCaptureWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DDAF5164A7FE7168FA6FD2 /* ReminderCaptureWidget.swift */; };
+		B77BF2DB4228374890C9FA89 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B29EDA996FD6EF058DAAD4DA /* Localizable.strings */; };
+		BC4EACF41690F7B65C39E50B /* WidgetsGuideSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2FEF958E4F0B4ABDB7CE90 /* WidgetsGuideSheet.swift */; };
+		BEC525C3A4974BE3BEB8692C /* MemoryTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE005BC43E89FD33A910E807 /* MemoryTab.swift */; };
+		C0C18D37F6B362C2230B9AB7 /* LenaraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9031DE773E87661E3A0903B0 /* LenaraApp.swift */; };
+		C8B6739217AC8D45E9091CE5 /* Brisa.wav in Resources */ = {isa = PBXBuildFile; fileRef = F474580D1A56D130DAC605EE /* Brisa.wav */; };
+		CF6EAC5107B41F75C0FAC31C /* ReminderSchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E467A4E59C5EB6C49BB820 /* ReminderSchedule.swift */; };
+		D0B5985F9236DD4BBFB1E6F2 /* NotificationChispa.wav in Resources */ = {isa = PBXBuildFile; fileRef = D5BF00310AFD67ABD91D1AFC /* NotificationChispa.wav */; };
+		D23830D418BDE1A1E299F7B5 /* ReminderDetailSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9255DF3DE7E359F66CE9822F /* ReminderDetailSheet.swift */; };
+		E3248BCA18BDFC378E03A7F4 /* ModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFE0B4006228115FD6326AE /* ModelTests.swift */; };
+		E4A3E796BA3D21CA1105F3C0 /* AlarmaFuerte.wav in Resources */ = {isa = PBXBuildFile; fileRef = D45A748FB5955A9B2B98E570 /* AlarmaFuerte.wav */; };
+		E99FB243025174CC49DB7DFB /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C494BB238BA21DADD4DEBE /* Models.swift */; };
+		E9B35F99AD1086E7AB1E128B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8568CB5134CCD1674F53C1DF /* AppDelegate.swift */; };
+		ED813CA1D83BEFBED4C1C33E /* AppEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94442109F4A5E2385AEC7A14 /* AppEnums.swift */; };
+		EFAC07954086E60CB7ED1E23 /* NotificationCampanita.wav in Resources */ = {isa = PBXBuildFile; fileRef = 13DB7347F459791B06BD3D2C /* NotificationCampanita.wav */; };
+		F12EE9E9B82476982CDCA32F /* Aurora.wav in Resources */ = {isa = PBXBuildFile; fileRef = F8CDC730B8FB2F11A553D6F4 /* Aurora.wav */; };
+		FB22E971751A703575F708DF /* WidgetSharedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233C20370DD35E323377054A /* WidgetSharedStore.swift */; };
+		FB6813310E67D306B13AA62C /* Destello.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3550BA567F10D2430CE9994A /* Destello.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5057BB89B4AD709D66270EE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C471CFB20EE020E9F7FEEE85 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B664FCFADC5E2A194E4055B4;
+			remoteInfo = Lenara;
+		};
+		A4FF199EA76B8AEBB25ACA3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C471CFB20EE020E9F7FEEE85 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2AFC0C8ECEF4BE27F390A0A;
+			remoteInfo = LenaraWidgets;
+		};
+		B81CDA11CC49DC95A83EB5B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C471CFB20EE020E9F7FEEE85 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B664FCFADC5E2A194E4055B4;
+			remoteInfo = Lenara;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		603F6DB9C8CB101C362537C6 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				7C0A2D30FF7862F8DA59522B /* LenaraWidgets.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		04B312F5E3B431AF70E60A63 /* Alarma-Fuerte_MasDUR.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Alarma-Fuerte_MasDUR.wav"; sourceTree = "<group>"; };
+		0B57BD7590C52049C29D285A /* VoiceCaptureSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceCaptureSheet.swift; sourceTree = "<group>"; };
+		1223B1D725E5CAF579739EAF /* LocalLlamaEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalLlamaEngine.swift; sourceTree = "<group>"; };
+		12F5ADB862F934C7DC947DF2 /* ReminderScheduleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderScheduleTests.swift; sourceTree = "<group>"; };
+		13DB7347F459791B06BD3D2C /* NotificationCampanita.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = NotificationCampanita.wav; sourceTree = "<group>"; };
+		14C46BCC8297EADCCC1808D4 /* LenaraTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = LenaraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		16A4BF3BE19BF077C1853A3A /* ReminderCaptureActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderCaptureActivity.swift; sourceTree = "<group>"; };
+		1842D6866F790C92AA3E7D6A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		197D3978F3A742930BD1BAD6 /* AgendaTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgendaTab.swift; sourceTree = "<group>"; };
+		20671440C6875CDAB66FD19A /* HomeTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTab.swift; sourceTree = "<group>"; };
+		233C20370DD35E323377054A /* WidgetSharedStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetSharedStore.swift; sourceTree = "<group>"; };
+		34D4E97419060FA6B0339A91 /* WidgetVoiceCaptureScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetVoiceCaptureScreen.swift; sourceTree = "<group>"; };
+		3550BA567F10D2430CE9994A /* Destello.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Destello.wav; sourceTree = "<group>"; };
+		37DDAF5164A7FE7168FA6FD2 /* ReminderCaptureWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderCaptureWidget.swift; sourceTree = "<group>"; };
+		3945CFDA10061D02FFD6DCF6 /* AssistantPromptStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssistantPromptStore.swift; sourceTree = "<group>"; };
+		40906A07C6C7069C40E247A6 /* LlamaCpp */ = {isa = PBXFileReference; lastKnownFileType = folder; name = LlamaCpp; path = Packages/LlamaCpp; sourceTree = SOURCE_ROOT; };
+		441CF48F286E995400C8C178 /* ReminderNotificationRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderNotificationRouter.swift; sourceTree = "<group>"; };
+		49CBE39CF52257E066DB69A1 /* LenaraWidgets.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LenaraWidgets.entitlements; sourceTree = "<group>"; };
+		4F089B2AA707D20C8BD76E47 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		555F8E568239FE48E84EF81E /* CaptureAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = CaptureAssets.xcassets; sourceTree = "<group>"; };
+		60711C90F8A51AFEAAB2D1DB /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		6549CD6987797DD382640F25 /* Latido.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Latido.wav; sourceTree = "<group>"; };
+		66BD1BC547BFA172F119F7CD /* Llamado.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Llamado.wav; sourceTree = "<group>"; };
+		70E467A4E59C5EB6C49BB820 /* ReminderSchedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderSchedule.swift; sourceTree = "<group>"; };
+		71C68F3EFC7EF094EA66EC61 /* NotificationAurora.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = NotificationAurora.wav; sourceTree = "<group>"; };
+		74FE7D84BF64B2AC00F14E68 /* LockIconTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockIconTests.swift; sourceTree = "<group>"; };
+		79BD480AD2B8B1B1364C09D0 /* LocalModelCatalogTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalModelCatalogTests.swift; sourceTree = "<group>"; };
+		7E814031339E26E40979BA12 /* AppConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfiguration.swift; sourceTree = "<group>"; };
+		8568CB5134CCD1674F53C1DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		862782F0C71A3B1C885BA694 /* LocalModelManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalModelManager.swift; sourceTree = "<group>"; };
+		8744EFB53E12F7D90BFB604C /* Gota.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Gota.wav; sourceTree = "<group>"; };
+		9031DE773E87661E3A0903B0 /* LenaraApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LenaraApp.swift; sourceTree = "<group>"; };
+		9255DF3DE7E359F66CE9822F /* ReminderDetailSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderDetailSheet.swift; sourceTree = "<group>"; };
+		927F008A5874EA02008CAAC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		92A936C84158806329D07B17 /* LenaraWidgets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LenaraWidgets.swift; sourceTree = "<group>"; };
+		94442109F4A5E2385AEC7A14 /* AppEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEnums.swift; sourceTree = "<group>"; };
+		997695FFAC821D23A97C17D3 /* IntentParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentParser.swift; sourceTree = "<group>"; };
+		9A11C81242E873DB0316832C /* KeychainManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainManager.swift; sourceTree = "<group>"; };
+		9C1027384B6B93A6F56239E1 /* LenaraColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LenaraColors.swift; sourceTree = "<group>"; };
+		9E4872F1ECE09553A9C6F6FF /* ChatSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatSheet.swift; sourceTree = "<group>"; };
+		A97844C55CFB7B1DF91E69DB /* DataServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataServices.swift; sourceTree = "<group>"; };
+		AAFE0B4006228115FD6326AE /* ModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelTests.swift; sourceTree = "<group>"; };
+		B18C11A41748457F7B364FA6 /* LocalNotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotificationManager.swift; sourceTree = "<group>"; };
+		B29EDA996FD6EF058DAAD4DA /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		B34B4011E71B683576B9DE38 /* ReminderDictationRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderDictationRoute.swift; sourceTree = "<group>"; };
+		BD0B36DE8635BEA8A730674C /* AppLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLogger.swift; sourceTree = "<group>"; };
+		C62AB7CD75006EC0F4504521 /* LenaraStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LenaraStore.swift; sourceTree = "<group>"; };
+		CE005BC43E89FD33A910E807 /* MemoryTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryTab.swift; sourceTree = "<group>"; };
+		D45A748FB5955A9B2B98E570 /* AlarmaFuerte.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = AlarmaFuerte.wav; sourceTree = "<group>"; };
+		D4745C6A7AE059A8E705DF28 /* Lenara.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Lenara.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D51091DC863FC04DB2DFAEEB /* LockScreenReminderCapture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockScreenReminderCapture.swift; sourceTree = "<group>"; };
+		D5BF00310AFD67ABD91D1AFC /* NotificationChispa.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = NotificationChispa.wav; sourceTree = "<group>"; };
+		DCAAE34FAD1FA46A3F4A7E2E /* NotificationSoundLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationSoundLibrary.swift; sourceTree = "<group>"; };
+		DD4B7350379DF4DE6438689A /* NotificationFlowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationFlowTests.swift; sourceTree = "<group>"; };
+		E0B5B708F860F7C5394EEC9D /* SettingsTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTab.swift; sourceTree = "<group>"; };
+		E3B1F7F4BEAD6055310B04D8 /* Lenara.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Lenara.entitlements; sourceTree = "<group>"; };
+		E406F1371B45180280977BAD /* LenaraWidgets.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = LenaraWidgets.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF2FEF958E4F0B4ABDB7CE90 /* WidgetsGuideSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetsGuideSheet.swift; sourceTree = "<group>"; };
+		F0C494BB238BA21DADD4DEBE /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		F474580D1A56D130DAC605EE /* Brisa.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Brisa.wav; sourceTree = "<group>"; };
+		F5DFEE88DD7C6CA5B70A6FA5 /* VoiceReminderService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceReminderService.swift; sourceTree = "<group>"; };
+		F618DA691012DF7407A258AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F894305738CC3602CA8E8EBC /* VoiceReminderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceReminderTests.swift; sourceTree = "<group>"; };
+		F8CDC730B8FB2F11A553D6F4 /* Aurora.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Aurora.wav; sourceTree = "<group>"; };
+		FDDEC6759EF5B84D30306530 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		FFA147F9A02A3DA1C04CC16E /* LenaraUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = LenaraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B75BCAED1967475EF9614EEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9971B09A6CD209671D3EA098 /* llama in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		021F940121DB442E74E6165B /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				B29EDA996FD6EF058DAAD4DA /* Localizable.strings */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+		043236315711D3B06CAC5D2D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4745C6A7AE059A8E705DF28 /* Lenara.app */,
+				14C46BCC8297EADCCC1808D4 /* LenaraTests.xctest */,
+				FFA147F9A02A3DA1C04CC16E /* LenaraUITests.xctest */,
+				E406F1371B45180280977BAD /* LenaraWidgets.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05238F9BD192DD53E23391D6 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				C62AB7CD75006EC0F4504521 /* LenaraStore.swift */,
+				644295CC9F6D4E9AB411DB13 /* Models */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		057781FCD4EDFA057702EC0F /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				20671440C6875CDAB66FD19A /* HomeTab.swift */,
+				EF2FEF958E4F0B4ABDB7CE90 /* WidgetsGuideSheet.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		06EAC5CE98480B1CCEEA2D97 /* Widgets */ = {
+			isa = PBXGroup;
+			children = (
+				FDDEC6759EF5B84D30306530 /* Info.plist */,
+				49CBE39CF52257E066DB69A1 /* LenaraWidgets.entitlements */,
+				92A936C84158806329D07B17 /* LenaraWidgets.swift */,
+				37DDAF5164A7FE7168FA6FD2 /* ReminderCaptureWidget.swift */,
+			);
+			path = Widgets;
+			sourceTree = "<group>";
+		};
+		0E1B507C314FAAC3A3D91B4C = {
+			isa = PBXGroup;
+			children = (
+				B49A66FAD9372D54423C6567 /* Lenara */,
+				54386ED9F216708D3716E4E2 /* Packages */,
+				E3629E5D38F43D41D5115438 /* Shared */,
+				FB680990496317E51017F7FF /* Tests */,
+				06EAC5CE98480B1CCEEA2D97 /* Widgets */,
+				043236315711D3B06CAC5D2D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		19DF3C0EC92903DD0CB13B71 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				9E4872F1ECE09553A9C6F6FF /* ChatSheet.swift */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		23D4C9B2EBA5BB35A799FA0A /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				5201558DA9D03177C8495F89 /* Configuration */,
+				05238F9BD192DD53E23391D6 /* Database */,
+				9A20A135F4CE3F16E76B5F76 /* Logging */,
+				885B91859ECD1F9EF9F4AFB2 /* Notifications */,
+				608F6E0C3118704C08CB6AFB /* Security */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		2A81C8C45EF682FDBA87D492 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				BC3602CE42A4EE7B2AF756E7 /* Agenda */,
+				19DF3C0EC92903DD0CB13B71 /* Chat */,
+				057781FCD4EDFA057702EC0F /* Home */,
+				C0AB0D80BBE7122C4DC31D02 /* Memory */,
+				386F13CDCBF1FA8D4B97C834 /* Onboarding */,
+				E8639AEEA1B1ED3D5EB41402 /* Settings */,
+				D5CA0E3C893A968BF54F4024 /* Voice */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		2B45D9FB4F0670F6CC85B0AB /* LocalAI */ = {
+			isa = PBXGroup;
+			children = (
+				3945CFDA10061D02FFD6DCF6 /* AssistantPromptStore.swift */,
+				1223B1D725E5CAF579739EAF /* LocalLlamaEngine.swift */,
+				862782F0C71A3B1C885BA694 /* LocalModelManager.swift */,
+			);
+			path = LocalAI;
+			sourceTree = "<group>";
+		};
+		386F13CDCBF1FA8D4B97C834 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				60711C90F8A51AFEAAB2D1DB /* OnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		5201558DA9D03177C8495F89 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				7E814031339E26E40979BA12 /* AppConfiguration.swift */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		54386ED9F216708D3716E4E2 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				40906A07C6C7069C40E247A6 /* LlamaCpp */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		608F6E0C3118704C08CB6AFB /* Security */ = {
+			isa = PBXGroup;
+			children = (
+				9A11C81242E873DB0316832C /* KeychainManager.swift */,
+			);
+			path = Security;
+			sourceTree = "<group>";
+		};
+		644295CC9F6D4E9AB411DB13 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F0C494BB238BA21DADD4DEBE /* Models.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		741C6B9A0C5965BBDF673E16 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				94442109F4A5E2385AEC7A14 /* AppEnums.swift */,
+				70E467A4E59C5EB6C49BB820 /* ReminderSchedule.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		885B91859ECD1F9EF9F4AFB2 /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				B18C11A41748457F7B364FA6 /* LocalNotificationManager.swift */,
+				DCAAE34FAD1FA46A3F4A7E2E /* NotificationSoundLibrary.swift */,
+				441CF48F286E995400C8C178 /* ReminderNotificationRouter.swift */,
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
+		92F84558B0BFCAA848768580 /* Infrastructure */ = {
+			isa = PBXGroup;
+			children = (
+				2B45D9FB4F0670F6CC85B0AB /* LocalAI */,
+			);
+			path = Infrastructure;
+			sourceTree = "<group>";
+		};
+		93E8C98B2A44C5B30F9BD07F /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A97844C55CFB7B1DF91E69DB /* DataServices.swift */,
+				997695FFAC821D23A97C17D3 /* IntentParser.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		9407AA10CE7B55ED092A5555 /* UnitTests */ = {
+			isa = PBXGroup;
+			children = (
+				79BD480AD2B8B1B1364C09D0 /* LocalModelCatalogTests.swift */,
+				74FE7D84BF64B2AC00F14E68 /* LockIconTests.swift */,
+				AAFE0B4006228115FD6326AE /* ModelTests.swift */,
+				12F5ADB862F934C7DC947DF2 /* ReminderScheduleTests.swift */,
+				F894305738CC3602CA8E8EBC /* VoiceReminderTests.swift */,
+			);
+			path = UnitTests;
+			sourceTree = "<group>";
+		};
+		9A20A135F4CE3F16E76B5F76 /* Logging */ = {
+			isa = PBXGroup;
+			children = (
+				BD0B36DE8635BEA8A730674C /* AppLogger.swift */,
+			);
+			path = Logging;
+			sourceTree = "<group>";
+		};
+		9FB61898D346D225E1FB3B47 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				1842D6866F790C92AA3E7D6A /* ContentView.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		A4C08B1C8F9327825A1F9338 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				927F008A5874EA02008CAAC5 /* Assets.xcassets */,
+				F618DA691012DF7407A258AB /* Info.plist */,
+				9C1027384B6B93A6F56239E1 /* LenaraColors.swift */,
+				4F089B2AA707D20C8BD76E47 /* PrivacyInfo.xcprivacy */,
+				021F940121DB442E74E6165B /* Localization */,
+				C761307508695E5A3A80B6BF /* NotificationSounds */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B49A66FAD9372D54423C6567 /* Lenara */ = {
+			isa = PBXGroup;
+			children = (
+				E3B1F7F4BEAD6055310B04D8 /* Lenara.entitlements */,
+				E3C9DD4E26F1B0DB23CB66F7 /* App */,
+				23D4C9B2EBA5BB35A799FA0A /* Core */,
+				EE61446CEC33991A652D62B4 /* Domain */,
+				2A81C8C45EF682FDBA87D492 /* Features */,
+				92F84558B0BFCAA848768580 /* Infrastructure */,
+				9FB61898D346D225E1FB3B47 /* Navigation */,
+				A4C08B1C8F9327825A1F9338 /* Resources */,
+			);
+			path = Lenara;
+			sourceTree = "<group>";
+		};
+		BC3602CE42A4EE7B2AF756E7 /* Agenda */ = {
+			isa = PBXGroup;
+			children = (
+				197D3978F3A742930BD1BAD6 /* AgendaTab.swift */,
+				9255DF3DE7E359F66CE9822F /* ReminderDetailSheet.swift */,
+			);
+			path = Agenda;
+			sourceTree = "<group>";
+		};
+		C0AB0D80BBE7122C4DC31D02 /* Memory */ = {
+			isa = PBXGroup;
+			children = (
+				CE005BC43E89FD33A910E807 /* MemoryTab.swift */,
+			);
+			path = Memory;
+			sourceTree = "<group>";
+		};
+		C761307508695E5A3A80B6BF /* NotificationSounds */ = {
+			isa = PBXGroup;
+			children = (
+				04B312F5E3B431AF70E60A63 /* Alarma-Fuerte_MasDUR.wav */,
+				D45A748FB5955A9B2B98E570 /* AlarmaFuerte.wav */,
+				F8CDC730B8FB2F11A553D6F4 /* Aurora.wav */,
+				F474580D1A56D130DAC605EE /* Brisa.wav */,
+				3550BA567F10D2430CE9994A /* Destello.wav */,
+				8744EFB53E12F7D90BFB604C /* Gota.wav */,
+				6549CD6987797DD382640F25 /* Latido.wav */,
+				66BD1BC547BFA172F119F7CD /* Llamado.wav */,
+				71C68F3EFC7EF094EA66EC61 /* NotificationAurora.wav */,
+				13DB7347F459791B06BD3D2C /* NotificationCampanita.wav */,
+				D5BF00310AFD67ABD91D1AFC /* NotificationChispa.wav */,
+			);
+			path = NotificationSounds;
+			sourceTree = "<group>";
+		};
+		D5CA0E3C893A968BF54F4024 /* Voice */ = {
+			isa = PBXGroup;
+			children = (
+				D51091DC863FC04DB2DFAEEB /* LockScreenReminderCapture.swift */,
+				B34B4011E71B683576B9DE38 /* ReminderDictationRoute.swift */,
+				0B57BD7590C52049C29D285A /* VoiceCaptureSheet.swift */,
+				F5DFEE88DD7C6CA5B70A6FA5 /* VoiceReminderService.swift */,
+				34D4E97419060FA6B0339A91 /* WidgetVoiceCaptureScreen.swift */,
+			);
+			path = Voice;
+			sourceTree = "<group>";
+		};
+		E3629E5D38F43D41D5115438 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				555F8E568239FE48E84EF81E /* CaptureAssets.xcassets */,
+				16A4BF3BE19BF077C1853A3A /* ReminderCaptureActivity.swift */,
+				233C20370DD35E323377054A /* WidgetSharedStore.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		E3C9DD4E26F1B0DB23CB66F7 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				8568CB5134CCD1674F53C1DF /* AppDelegate.swift */,
+				9031DE773E87661E3A0903B0 /* LenaraApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		E8639AEEA1B1ED3D5EB41402 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				E0B5B708F860F7C5394EEC9D /* SettingsTab.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		EE61446CEC33991A652D62B4 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				741C6B9A0C5965BBDF673E16 /* Models */,
+				93E8C98B2A44C5B30F9BD07F /* Services */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		F00E5440AD74941E7F8F229C /* UITests */ = {
+			isa = PBXGroup;
+			children = (
+				DD4B7350379DF4DE6438689A /* NotificationFlowTests.swift */,
+			);
+			path = UITests;
+			sourceTree = "<group>";
+		};
+		FB680990496317E51017F7FF /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F00E5440AD74941E7F8F229C /* UITests */,
+				9407AA10CE7B55ED092A5555 /* UnitTests */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40BB99639ED8C43C32470EE3 /* LenaraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2AC2403C8872D471C222677 /* Build configuration list for PBXNativeTarget "LenaraTests" */;
+			buildPhases = (
+				9EDFE390CACCD8A6CE25F750 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				35FFB3AFD319530FE8A46537 /* PBXTargetDependency */,
+			);
+			name = LenaraTests;
+			packageProductDependencies = (
+			);
+			productName = LenaraTests;
+			productReference = 14C46BCC8297EADCCC1808D4 /* LenaraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A2AFC0C8ECEF4BE27F390A0A /* LenaraWidgets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 830C3EA7D8F1424B598C7647 /* Build configuration list for PBXNativeTarget "LenaraWidgets" */;
+			buildPhases = (
+				6225A565736E8135B7688BCD /* Sources */,
+				B0148D7E980448BCEB45B937 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LenaraWidgets;
+			packageProductDependencies = (
+			);
+			productName = LenaraWidgets;
+			productReference = E406F1371B45180280977BAD /* LenaraWidgets.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		A5E5BB7EF56A4DE2B619E4AC /* LenaraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7D4B93BAE3549B8E0EA5B8B /* Build configuration list for PBXNativeTarget "LenaraUITests" */;
+			buildPhases = (
+				DCC6E4565B116157A1A4E3DE /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A627772685C84D14856DE471 /* PBXTargetDependency */,
+			);
+			name = LenaraUITests;
+			packageProductDependencies = (
+			);
+			productName = LenaraUITests;
+			productReference = FFA147F9A02A3DA1C04CC16E /* LenaraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		B664FCFADC5E2A194E4055B4 /* Lenara */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC8A46C4DE666C90658A2C72 /* Build configuration list for PBXNativeTarget "Lenara" */;
+			buildPhases = (
+				9AAC4A07C45A0F2EB4941A8D /* Sources */,
+				7E70E6BF0301F036912442B9 /* Resources */,
+				B75BCAED1967475EF9614EEA /* Frameworks */,
+				603F6DB9C8CB101C362537C6 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE551A6BD87C71ED731281F4 /* PBXTargetDependency */,
+			);
+			name = Lenara;
+			packageProductDependencies = (
+				3B29ED134957920CBA411039 /* llama */,
+			);
+			productName = Lenara;
+			productReference = D4745C6A7AE059A8E705DF28 /* Lenara.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C471CFB20EE020E9F7FEEE85 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					40BB99639ED8C43C32470EE3 = {
+						DevelopmentTeam = 9QMCJK7ZBP;
+						ProvisioningStyle = Automatic;
+					};
+					A2AFC0C8ECEF4BE27F390A0A = {
+						DevelopmentTeam = 9QMCJK7ZBP;
+						ProvisioningStyle = Automatic;
+					};
+					A5E5BB7EF56A4DE2B619E4AC = {
+						DevelopmentTeam = 9QMCJK7ZBP;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B664FCFADC5E2A194E4055B4;
+					};
+					B664FCFADC5E2A194E4055B4 = {
+						DevelopmentTeam = 9QMCJK7ZBP;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 36FEF3E31D922CB8064019C3 /* Build configuration list for PBXProject "Lenara" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 0E1B507C314FAAC3A3D91B4C;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				FDD4E1E8466B4D6C4CABFA27 /* XCLocalSwiftPackageReference "Packages/LlamaCpp" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 043236315711D3B06CAC5D2D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B664FCFADC5E2A194E4055B4 /* Lenara */,
+				40BB99639ED8C43C32470EE3 /* LenaraTests */,
+				A5E5BB7EF56A4DE2B619E4AC /* LenaraUITests */,
+				A2AFC0C8ECEF4BE27F390A0A /* LenaraWidgets */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E70E6BF0301F036912442B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				453EB65D7984E867EC499E83 /* Alarma-Fuerte_MasDUR.wav in Resources */,
+				E4A3E796BA3D21CA1105F3C0 /* AlarmaFuerte.wav in Resources */,
+				1333189E9A5CC1DC6831DAE1 /* Assets.xcassets in Resources */,
+				F12EE9E9B82476982CDCA32F /* Aurora.wav in Resources */,
+				C8B6739217AC8D45E9091CE5 /* Brisa.wav in Resources */,
+				34D45C44244F4B0C15F39991 /* CaptureAssets.xcassets in Resources */,
+				FB6813310E67D306B13AA62C /* Destello.wav in Resources */,
+				9B315212571B75B415E67429 /* Gota.wav in Resources */,
+				2D56D6C635D68A45D14E7DF7 /* Latido.wav in Resources */,
+				56F1569F9502497A23E1821B /* Llamado.wav in Resources */,
+				B77BF2DB4228374890C9FA89 /* Localizable.strings in Resources */,
+				940F13258C7F06CB4AFB673E /* NotificationAurora.wav in Resources */,
+				EFAC07954086E60CB7ED1E23 /* NotificationCampanita.wav in Resources */,
+				D0B5985F9236DD4BBFB1E6F2 /* NotificationChispa.wav in Resources */,
+				00E96FB23CA747EA624FC892 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0148D7E980448BCEB45B937 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19AAA7CC23673F89C99178C3 /* CaptureAssets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6225A565736E8135B7688BCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BCD329AA3C866BAC4ED34DD /* LenaraWidgets.swift in Sources */,
+				58CFE56180D8AD8C8FFFE843 /* ReminderCaptureActivity.swift in Sources */,
+				B32421AF84FAAD39BA7A2725 /* ReminderCaptureWidget.swift in Sources */,
+				FB22E971751A703575F708DF /* WidgetSharedStore.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AAC4A07C45A0F2EB4941A8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9023C1F99D194667F2783B7F /* AgendaTab.swift in Sources */,
+				A04A7434AE5057DA4D4012BE /* AppConfiguration.swift in Sources */,
+				E9B35F99AD1086E7AB1E128B /* AppDelegate.swift in Sources */,
+				ED813CA1D83BEFBED4C1C33E /* AppEnums.swift in Sources */,
+				B292D42D2025FB98B68C206E /* AppLogger.swift in Sources */,
+				7C3AFA87DB7D5679920DBB7B /* AssistantPromptStore.swift in Sources */,
+				3B6EE622777DDE28AA95F4DC /* ChatSheet.swift in Sources */,
+				B2A9DD3870BDF2D877E871CD /* ContentView.swift in Sources */,
+				51C831908DE8C57A0770AE23 /* DataServices.swift in Sources */,
+				7423E2A39F634EC35ED6BBB4 /* HomeTab.swift in Sources */,
+				3D853F0BCA918C6B81010C8A /* IntentParser.swift in Sources */,
+				2D3BAF5EEBBBBDCAE89218BD /* KeychainManager.swift in Sources */,
+				C0C18D37F6B362C2230B9AB7 /* LenaraApp.swift in Sources */,
+				A58948300D1C80E59B3C1F76 /* LenaraColors.swift in Sources */,
+				627159A3EDB260146FE83A62 /* LenaraStore.swift in Sources */,
+				07B10AB2DF307B45B3758BF6 /* LocalLlamaEngine.swift in Sources */,
+				89FDCABD5BF1469FF652032A /* LocalModelManager.swift in Sources */,
+				80250EF4C551E88F5A9E0AAD /* LocalNotificationManager.swift in Sources */,
+				6E04134B408FB971666CAA48 /* LockScreenReminderCapture.swift in Sources */,
+				BEC525C3A4974BE3BEB8692C /* MemoryTab.swift in Sources */,
+				E99FB243025174CC49DB7DFB /* Models.swift in Sources */,
+				6954DEDBA1B30D97B6CCF0D1 /* NotificationSoundLibrary.swift in Sources */,
+				506DFC9730253FD4C9919330 /* OnboardingView.swift in Sources */,
+				36E243572FB0ACCF2D7BE81F /* ReminderCaptureActivity.swift in Sources */,
+				D23830D418BDE1A1E299F7B5 /* ReminderDetailSheet.swift in Sources */,
+				86739338551B664AD99B2ED2 /* ReminderDictationRoute.swift in Sources */,
+				9F93D459F56E2BF58764B095 /* ReminderNotificationRouter.swift in Sources */,
+				CF6EAC5107B41F75C0FAC31C /* ReminderSchedule.swift in Sources */,
+				60BB27ECD4819EF6927E947E /* SettingsTab.swift in Sources */,
+				4EC44D2E805D766AB992CC08 /* VoiceCaptureSheet.swift in Sources */,
+				9107C8DA2E9A199A74EDC198 /* VoiceReminderService.swift in Sources */,
+				4F4EBA2A1CA697A2BF23F148 /* WidgetSharedStore.swift in Sources */,
+				8C3C1586E8739B00016FC69F /* WidgetVoiceCaptureScreen.swift in Sources */,
+				BC4EACF41690F7B65C39E50B /* WidgetsGuideSheet.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EDFE390CACCD8A6CE25F750 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03D82DC0C6DFB2DCF1F6F636 /* LocalModelCatalogTests.swift in Sources */,
+				688F639E43042491E3891ECE /* LockIconTests.swift in Sources */,
+				E3248BCA18BDFC378E03A7F4 /* ModelTests.swift in Sources */,
+				5CBD67F9BB2A84ED124CCCFD /* ReminderScheduleTests.swift in Sources */,
+				730646A3248CC4E870B628B2 /* VoiceReminderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCC6E4565B116157A1A4E3DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9369D958F05CBA96F826EB7E /* NotificationFlowTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		35FFB3AFD319530FE8A46537 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B664FCFADC5E2A194E4055B4 /* Lenara */;
+			targetProxy = B81CDA11CC49DC95A83EB5B7 /* PBXContainerItemProxy */;
+		};
+		A627772685C84D14856DE471 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B664FCFADC5E2A194E4055B4 /* Lenara */;
+			targetProxy = 5057BB89B4AD709D66270EE4 /* PBXContainerItemProxy */;
+		};
+		BE551A6BD87C71ED731281F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2AFC0C8ECEF4BE27F390A0A /* LenaraWidgets */;
+			targetProxy = A4FF199EA76B8AEBB25ACA3B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03B2EB0B0A68144F2CA6942D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = LenaraAppIcon;
+				CFBundleDisplayName = Lenara;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 12;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Lenara/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LSMinimumSystemVersion = 17.0;
+				MARKETING_VERSION = 0.1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lenara.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTS_IPAD = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.10;
+				TARGETED_DEVICE_FAMILY = 1;
+				UILaunchScreen = "[\"UIColorName\": \"Background\"]";
+				UIStatusBarHidden = NO;
+				UISupportedInterfaceOrientations = (
+					UIInterfaceOrientationPortrait,
+				);
+			};
+			name = Release;
+		};
+		2AB5CEC97973C7935239201F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lenara.app.uitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Lenara;
+			};
+			name = Release;
+		};
+		4605933F3B5E2A32CE71A4BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = LenaraAppIcon;
+				CFBundleDisplayName = Lenara;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 12;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Lenara/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LSMinimumSystemVersion = 17.0;
+				MARKETING_VERSION = 0.1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lenara.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTS_IPAD = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.10;
+				TARGETED_DEVICE_FAMILY = 1;
+				UILaunchScreen = "[\"UIColorName\": \"Background\"]";
+				UIStatusBarHidden = NO;
+				UISupportedInterfaceOrientations = (
+					UIInterfaceOrientationPortrait,
+				);
+			};
+			name = Debug;
+		};
+		69E51B2F0C625FA784D760E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				CODE_SIGN_ENTITLEMENTS = Widgets/LenaraWidgets.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Widgets/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = LenaraWidgets;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lenara.app.widgets;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		6E02D32B6635C4EDF06E43F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = LenaraAppIcon;
+				CFBundleDisplayName = Lenara;
+				CFBundleShortVersionString = 0.1.0;
+				CFBundleVersion = "$(CURRENT_PROJECT_VERSION)";
+				CODE_SIGN_ENTITLEMENTS = Lenara/Lenara.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Lenara/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LSMinimumSystemVersion = 17.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lenara.app;
+				SDKROOT = iphoneos;
+				SUPPORTS_IPAD = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) LENARA_APP";
+				TARGETED_DEVICE_FAMILY = 1;
+				UIStatusBarHidden = NO;
+				UISupportedInterfaceOrientations = (
+					UIInterfaceOrientationPortrait,
+				);
+			};
+			name = Debug;
+		};
+		73827B73A7D6DDA5C5FAA9F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				CODE_SIGN_ENTITLEMENTS = Widgets/LenaraWidgets.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Widgets/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = LenaraWidgets;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lenara.app.widgets;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		742A6AA18DD8571187C4E11A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = LenaraAppIcon;
+				CFBundleDisplayName = Lenara;
+				CFBundleShortVersionString = 0.1.0;
+				CFBundleVersion = "$(CURRENT_PROJECT_VERSION)";
+				CODE_SIGN_ENTITLEMENTS = Lenara/Lenara.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Lenara/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LSMinimumSystemVersion = 17.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lenara.app;
+				SDKROOT = iphoneos;
+				SUPPORTS_IPAD = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) LENARA_APP";
+				TARGETED_DEVICE_FAMILY = 1;
+				UIStatusBarHidden = NO;
+				UISupportedInterfaceOrientations = (
+					UIInterfaceOrientationPortrait,
+				);
+			};
+			name = Release;
+		};
+		914AD40623C2287807A4B144 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lenara.app.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lenara.app/Lenara";
+			};
+			name = Debug;
+		};
+		B1512DC260E5E7B6A7E964AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lenara.app.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lenara.app/Lenara";
+			};
+			name = Release;
+		};
+		CAFD6CEA525A976A0EE6E6E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lenara.app.uitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Lenara;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36FEF3E31D922CB8064019C3 /* Build configuration list for PBXProject "Lenara" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4605933F3B5E2A32CE71A4BD /* Debug */,
+				03B2EB0B0A68144F2CA6942D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		830C3EA7D8F1424B598C7647 /* Build configuration list for PBXNativeTarget "LenaraWidgets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73827B73A7D6DDA5C5FAA9F7 /* Debug */,
+				69E51B2F0C625FA784D760E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B7D4B93BAE3549B8E0EA5B8B /* Build configuration list for PBXNativeTarget "LenaraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAFD6CEA525A976A0EE6E6E5 /* Debug */,
+				2AB5CEC97973C7935239201F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		EC8A46C4DE666C90658A2C72 /* Build configuration list for PBXNativeTarget "Lenara" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E02D32B6635C4EDF06E43F9 /* Debug */,
+				742A6AA18DD8571187C4E11A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F2AC2403C8872D471C222677 /* Build configuration list for PBXNativeTarget "LenaraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				914AD40623C2287807A4B144 /* Debug */,
+				B1512DC260E5E7B6A7E964AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		FDD4E1E8466B4D6C4CABFA27 /* XCLocalSwiftPackageReference "Packages/LlamaCpp" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/LlamaCpp;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3B29ED134957920CBA411039 /* llama */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = llama;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = C471CFB20EE020E9F7FEEE85 /* Project object */;
+}
