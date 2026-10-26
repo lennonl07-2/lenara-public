@@ -14,6 +14,21 @@ Aplicación nativa para iPhone, construida con SwiftUI y SwiftData. La experienc
 </tr>
 </table>
 
+### Capturas de la app en iPhone
+
+<table>
+<tr>
+<td align="center" valign="top"><img src="docs/screenshots/04-bienvenida.jpg" alt="Bienvenida de Lenara" width="220"><br><sub>Bienvenida</sub></td>
+<td align="center" valign="top"><img src="docs/screenshots/05-personalizacion.jpg" alt="Personalización del nombre" width="220"><br><sub>Personalización</sub></td>
+<td align="center" valign="top"><img src="docs/screenshots/06-inicio.jpg" alt="Pantalla de inicio" width="220"><br><sub>Inicio</sub></td>
+</tr>
+<tr>
+<td align="center" valign="top"><img src="docs/screenshots/07-dictado-voz.jpg" alt="Dictado por voz" width="220"><br><sub>Dictado por voz</sub></td>
+<td align="center" valign="top"><img src="docs/screenshots/08-ajustes-modelo.jpg" alt="Ajustes y descarga del modelo local" width="220"><br><sub>Ajustes y modelo local</sub></td>
+<td align="center" valign="top"><img src="docs/screenshots/09-notificacion.jpg" alt="Notificación de recordatorio" width="220"><br><sub>Notificación local</sub></td>
+</tr>
+</table>
+
 ## Funciones implementadas
 
 - Recuerdos guardados y buscables en SwiftData.
