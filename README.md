@@ -2,6 +2,18 @@
 
 Aplicación nativa para iPhone, construida con SwiftUI y SwiftData. La experiencia principal está en español y usa un fondo verde bosque, la marca ilustrada de Lenara y tipografía redondeada del sistema.
 
+## Galería
+
+<table>
+<tr>
+<td align="center" valign="top"><img src="docs/screenshots/01-mascota-lenara.png" alt="Arte de Lenara" width="360"><br><sub>Arte de Lenara</sub></td>
+<td align="center" valign="top"><img src="docs/screenshots/02-icono-ios.png" alt="Icono de la aplicación" width="360"><br><sub>Icono de la aplicación</sub></td>
+</tr>
+<tr>
+<td align="center" valign="top"><img src="docs/screenshots/03-ilustracion-bloqueo.png" alt="Ilustración para pantalla de bloqueo" width="360"><br><sub>Ilustración para pantalla de bloqueo</sub></td>
+</tr>
+</table>
+
 ## Funciones implementadas
 
 - Recuerdos guardados y buscables en SwiftData.
